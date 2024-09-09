@@ -1,0 +1,49 @@
+// collaspe
+
+//FuncBlock UploadFile
+.receipt-upload .ant-upload-wrapper {
+    height: 32px;
+}
+
+//timepicker
+.receipt-timpicker .ant-picker-input {
+    flex-direction: row-reverse;
+
+    .ant-picker-suffix {
+        margin-inline-end: 4px;
+        margin-inline-start: 0;
+    }
+}
+
+.ant-picker-dropdown .ant-picker-ok .ant-btn-primary {
+    background-color: var(--main-color);
+}
+
+.ant-picker-dropdown .ant-picker-ok .ant-btn-primary:disabled {
+    background-color: transparent;
+}
+
+//input quntity
+.input-quantity {
+    .ant-input-number-input-wrap,
+    .ant-input-number-input-wrap .ant-input-number-input {
+        height: 100%;
+        width: 100%;
+    }
+
+    .ant-input-number-input-wrap .ant-input-number-input {
+        color: #939393;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .ant-input-number-input-wrap .ant-input-number-input:focus {
+        color: #3c3c3c;
+    }
+}
+
+//button disable
+.btn-receipt:not(:disabled):hover {
+    border-color: #bd472a;
+    color: #fff;
+}

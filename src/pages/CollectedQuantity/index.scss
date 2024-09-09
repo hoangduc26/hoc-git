@@ -1,0 +1,86 @@
+/* stylelint-disable indentation */
+
+.collected-quantity {
+    .ant-select-selector {
+        font-size: 20px !important;
+        line-height: 44px !important;
+    }
+
+    .ant-select-selection-item {
+        line-height: 44px !important;
+    }
+}
+
+.time_picker_preview {
+    display: none;
+}
+
+.modal_container {
+    .picker_container {
+        margin: 20px auto;
+    }
+}
+
+// .ant-btn-primary:not(:disabled):hover{
+//     background: #000;
+// }
+.modal_container {
+    box-shadow: none;
+    display: block;
+    opacity: 1;
+    position: static;
+    transform: scale(1);
+    visibility: visible;
+    z-index: 2;
+}
+
+.time_picker_modal_header {
+    background-color: #ffff;
+    color: #1d1b20;
+    font-size: 50px;
+}
+
+.time_picker_header {
+    background: #e9e9e9;
+    border-radius: 16px;
+    margin: 0 8px;
+    padding: 8px 12px;
+
+    &.active {
+        background: #e1ffde;
+        color: var(--main-color);
+    }
+}
+
+.picker_pointer {
+    background-color: var(--main-color);
+
+    .pointer_drag {
+        background-color: var(--main-color);
+    }
+}
+
+.picker_center {
+    background-color: var(--main-color);
+}
+
+.scrollableDiv {
+    height: calc(100vh - 170px);
+    overflow: auto;
+}
+
+.grow {
+    animation-duration: 0.25s;
+    animation-name: grow;
+    animation-timing-function: linear;
+}
+
+@keyframes grow {
+    from {
+        height: 153px;
+    }
+
+    to {
+        height: 366px;
+    }
+}

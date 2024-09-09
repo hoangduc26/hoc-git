@@ -1,0 +1,51 @@
+.time_picker_preview {
+    display: none;
+}
+
+.modal_container {
+    box-shadow: none;
+    display: block;
+    opacity: 1;
+    position: static;
+    transform: scale(1);
+    visibility: visible;
+    z-index: 2;
+}
+
+.time_picker_modal_header {
+    background-color: #fff;
+    color: #1d1b20;
+    font-size: 50px;
+}
+
+.time_picker_header {
+    background: #e9e9e9;
+    border-radius: 16px;
+    margin: 0 8px;
+    padding: 8px 12px;
+
+    &.active {
+        background: var(--sub-color-light);
+        color: var(--main-color);
+    }
+}
+
+.picker_pointer {
+    background-color: var(--main-color);
+
+    .pointer_drag {
+        background-color: var(--main-color);
+    }
+}
+
+.picker_center {
+    background-color: var(--main-color);
+}
+
+.scrollableDiv {
+    height: calc(100vh - 170px);
+}
+
+.picker_container {
+    margin: auto;
+}

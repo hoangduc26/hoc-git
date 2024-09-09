@@ -1,0 +1,10 @@
+.form-group-chat {
+    .ant-input-disabled {
+        color: rgba(0, 0, 0, 0.88);
+    }
+
+    .ant-btn-default:not(:disabled):hover {
+        color: #ffffff;
+        border-color: #bd472a;
+    }
+}

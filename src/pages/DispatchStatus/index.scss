@@ -1,0 +1,56 @@
+// collaspe
+.collapse-panel-custom-dispath-status {
+    border-radius: 0 !important;
+}
+
+.children>.ant-collapse-item,
+.ant-collapse .ant-collapse-content {
+    border: 0 !important;
+}
+
+.ant-collapse>.ant-collapse-item >.ant-collapse-header {
+    align-items: center;
+}
+
+.collapse-panel-custom-dispath-status>.ant-collapse-header {
+    border-radius: 0 !important;
+    padding: 8px 16px !important;
+}
+
+.collapse-panel-custom-dispath-status>.ant-collapse-content {
+    border-radius: 0 !important;
+}
+
+.ant-collapse-expand-icon {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.ant-collapse .ant-collapse-content>.ant-collapse-content-box {
+    padding: 0;
+}
+
+.subchildren .ant-collapse-content>.ant-collapse-content-box {
+    padding: 16px 0 !important;
+}
+
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner {
+    color: #fff;
+    background: #74a315;
+}
+
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+    border: 1px solid #74a315;
+}
+
+.ant-picker-dropdown .ant-picker-today-btn {
+    color: #74a315;
+}
+
+.ant-picker:hover, .ant-picker-focused {
+    border-color: #74a315;
+}
+
+.dispatch-type .ant-radio-wrapper span.ant-radio+* {
+    padding-inline-end: 0;
+}

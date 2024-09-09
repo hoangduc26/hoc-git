@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../src/assets/font/star.eot?0000");
+    // src: url('/src/assets/font/star.eot?0000');
+    src: url("../../src/assets/font/star.eot?0000#iefix") format("embedded-opentype"),
+        url("../../src/assets/font/star.woff2?0000") format("woff2"),
+        url("../../src/assets/font/star.woff?0000") format("woff"),
+        url("../../src/assets/font/star.ttf?0000") format("truetype"),
+        url("../../src/assets/font/star.svg?0000#fontello") format("svg");
+}
+
+// TODO: css input trong file css của font ??????????????????????????????????????????
+// TODO: dùng tailwind ?
+input[type="password"] {
+    font-family: "fontello";
+    font-size: 0.5rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 2px;
+    speak: none;
+    text-transform: none;
+}

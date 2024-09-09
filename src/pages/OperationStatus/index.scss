@@ -1,0 +1,55 @@
+// TODO: remove shit css
+.location-wrapper {
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: "0px 4px 8px - 2px rgba(16, 24, 40, 0.1), 0px 2px 4px - 2px rgba(16, 24, 40, 0.06)";
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 2rem;
+    padding: 16px;
+    position: relative;
+
+    &::before {
+        background: #bd472a;
+        border-radius: 0 8px 8px 0;
+        box-shadow: 2px 0 4px rgba(0, 0, 0, 0.16);
+        content: "";
+        height: 36px;
+        left: 0;
+        position: absolute;
+        top: 18px;
+        width: 6px;
+    }
+
+    &.green {
+        &::before {
+            background: var(--main-color);
+        }
+    }
+
+    .ant-btn {
+        height: auto;
+    }
+}
+
+.popup_address {
+    bottom: 50px;
+    left: -102px !important;
+    max-width: 253px;
+    position: absolute !important;
+    transform: none !important;
+    // padding: 12px !important;
+    width: 80vw;
+}
+
+.mapboxgl-popup-content {
+    border-radius: 10px !important;
+    padding: 12px !important;
+}
+
+.mapboxgl-popup-close-button {
+    border-radius: 0 10px 0 0;
+    width: 10%;
+}

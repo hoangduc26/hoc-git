@@ -1,0 +1,22 @@
+// collaspe
+.collapse-panel-custom-site-note {
+    border-radius: 0 !important;
+}
+
+.collapse-panel-custom-site-note>.ant-collapse-header {
+    border-radius: 0 !important;
+    padding: 8px 16px !important;
+}
+
+.collapse-panel-custom-site-note>.ant-collapse-content {
+    border-radius: 0 !important;
+}
+
+.ant-collapse-expand-icon {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.sitenote-collapse .ant-collapse-content>.ant-collapse-content-box {
+    padding: 16px 0 !important;
+}

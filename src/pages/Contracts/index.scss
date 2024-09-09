@@ -1,0 +1,126 @@
+.form-activeStatus {
+    .ant-form-item-label {
+        padding: 4px;
+    }
+
+    .ant-input {
+        overflow: scroll !important;
+    }
+
+    .ant-input-affix-wrapper {
+        border-color: #e9e9e9 !important;
+
+        .ant-input-affix-wrapper-focused {
+            border-color: #e9e9e9 !important;
+            box-shadow: none !important;
+        }
+    }
+
+    .ant-form-item {
+        margin: 0;
+        width: 100%;
+    }
+
+    .searchSvg {
+        path {
+            fill: transparent;
+            stroke: #a6a1a1;
+        }
+        filter: brightness(0) saturate(100%) invert(39%) sepia(0%) saturate(1207%) hue-rotate(176deg) brightness(102%)
+            contrast(94%);
+    }
+
+    .ant-input-group-addon {
+        padding: 0;
+        position: initial;
+        width: 0;
+
+        &:last-child {
+            visibility: visible;
+        }
+
+        > img {
+            padding-left: 6px !important;
+        }
+    }
+}
+
+.active-status-wrapper {
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: "0px 4px 8px - 2px rgba(16, 24, 40, 0.1), 0px 2px 4px - 2px rgba(16, 24, 40, 0.06)";
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 2rem;
+    padding: 16px;
+    position: relative;
+
+    .ant-btn {
+        height: auto;
+    }
+}
+
+// collaspe
+.collapse-panel-custom-contracts {
+    border-radius: 0 !important;
+}
+
+.children > .ant-collapse-item,
+.ant-collapse .ant-collapse-content {
+    border: 0 !important;
+}
+
+.ant-collapse-item {
+    margin-bottom: 1px;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    align-items: center;
+}
+
+.collapse-panel-custom-contracts > .ant-collapse-header {
+    border-radius: 0 !important;
+    padding: 8px 16px !important;
+}
+
+.collapse-panel-custom-contracts > .ant-collapse-content {
+    border-radius: 0 !important;
+}
+
+.ant-collapse-expand-icon {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.ant-collapse .ant-collapse-content > .ant-collapse-content-box {
+    padding: 0;
+}
+
+.subchildren .ant-collapse-content > .ant-collapse-content-box {
+    padding: 16px 0 !important;
+}
+
+// collaspe
+.collapse-panel-custom-contracts {
+    border-radius: 0 !important;
+}
+
+.collapse-panel-custom-contracts > .ant-collapse-header {
+    border-radius: 0 !important;
+    padding: 8px 16px !important;
+}
+
+.collapse-panel-custom-contracts > .ant-collapse-content {
+    border-radius: 0 !important;
+}
+
+.ant-collapse-expand-icon {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.ant-input-disabled {
+    color: #000 !important;
+}

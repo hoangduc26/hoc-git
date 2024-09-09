@@ -1,0 +1,91 @@
+/* stylelint-disable indentation */
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.ant-modal-body {
+    margin: 0;
+    padding: 0;
+}
+
+.App-header {
+    align-items: center;
+    background-color: #282c34;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.custom-progress {
+    position: relative;
+
+    .indicator {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin: 0 auto;
+        position: absolute;
+        text-align: center;
+        top: 60px;
+        user-select: none;
+        width: 100%;
+    }
+}
+
+.indicator-volume {
+    align-items: flex-end;
+    display: flex;
+    font-size: 1.3em;
+    height: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+
+    .inner {
+        margin-bottom: 30px;
+    }
+
+    .percentage {
+        color: #bbb;
+        font-size: 1.6em;
+        font-weight: 100;
+    }
+
+    .icon {
+        color: #5d9cec;
+        font-size: 3em;
+        margin-bottom: 15px;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
